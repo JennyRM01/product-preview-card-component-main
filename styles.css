@@ -1,0 +1,172 @@
+:root{
+     --green-500: hsl(158, 36%, 37%);
+     --green-700: hsl(158, 42%, 18%);
+     --black: hsl(212, 21%, 14%);
+     --grey: hsl(228, 12%, 48%);
+     --cream: hsl(30, 38%, 92%);
+     --white: hsl(0, 0%, 100%);
+
+     /* Preset 1 */
+     --fs-big: 2rem;
+     --lh-big: 1;
+     --ls-big: 0;
+     --ff-big: "Fraunces", serif;
+     --fw-big: 700;
+
+      /* Preset 2 */
+     --fs-button: 0.875rem;
+     --lh-button: 1.1;
+     --ls-button: 0;
+     --ff-button: "Montserrat",  sans-serif;
+     --fw-button: 700;
+
+      /* Preset 3 */
+     --fs-paragraph: 0.875rem;
+     --lh-paragraph: 1.6;
+     --ls-paragraph: 0;
+     --ff-paragraph: "Montserrat", sans-serif;
+     --fw-paragraph: 500;
+
+      /* Preset 4 */
+     --fs-small: 0.75rem;
+     --lh-small: 1.2;
+     --ls-small: 5px;
+     --ff-small: "Montserrat", sans-serif;
+     --fw-small: 500;
+
+      /* Preset 5 */
+     --fs-smaller: 0.813rem;
+     --lh-smaller: 1.2;
+     --ls-smaller: 0;
+     --ff-smaller: "Montserrat", sans-serif;
+     --fw-smaller: 500;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: var(--cream);
+    width: auto;
+    min-height: 100vh;
+
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: var(--white);
+
+}
+
+@media (min-width: 600px) {
+    .card{
+        flex-direction: row;
+    }
+}
+
+.product-image{
+    width: 100%;
+    max-height: 342px;
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 24px;
+}
+
+h1{
+    color: var(--black);
+    text-align: left;
+    font-size: var(--fs-big);
+    font-family: var(--ff-big);
+    line-height: var(--lh-big);
+    letter-spacing: var(--ls-big);
+    font-weight: var(--fw-big);
+}
+
+.price{
+    color: var(--green-500);
+    text-align: left;
+    font-size: var(--fs-big);
+    font-family: var(--ff-big);
+    line-height: var(--lh-big);
+    letter-spacing: var(--ls-big);
+    font-weight: var(--fw-big);
+}
+
+h3{
+    color: var(--grey);
+    text-align: left;
+    font-size: var(--fs-small);
+    font-family: var(--ff-small);
+    line-height: var(--lh-small);
+    letter-spacing: var(--ls-small);
+    font-weight: var(--fw-small);
+}
+
+p{
+    color: var(--grey);
+    text-align: left;
+    font-size: var(--fs-paragraph);
+    font-family: var(--ff-paragraph);
+    line-height: var(--lh-paragraph);
+    letter-spacing: var(--ls-paragraph);
+    font-weight: var(--fw-paragraph);
+}
+.price-original{
+    color: var(--grey);
+    text-align: left;
+    font-size: var(--fs-smaller);
+    font-family: var(--ff-smaller);
+    line-height: var(--lh-smaller);
+    letter-spacing: var(--ls-smaller);
+}
+.price-row{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.add-to-cart{
+    color: var(--white);
+    text-align: center;
+    font-size: var(--fs-button);
+    font-family: var(--ff-button);
+    line-height: var(--lh-button);
+    letter-spacing: var(--ls-button);
+    font-weight: var(--fw-button);
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 286px;
+    gap: 8px;
+    padding:  16px 32px;
+    background-color: var(--green-500);
+    border-radius: 8px;
+    border: none;
+
+}
+.attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
