@@ -27,7 +27,7 @@ Users should be able to:
 ### Screenshot
 
 ![Mobile Solution](./images/Screenshot%20-mobile.png)
-![Desktop Solution](./images/image-product-desktop.jpg)
+![Desktop Solution](./images/Screenshot-dekstop.png.jpg)
 
 *(Add your own screenshot here before pushing — take one on both mobile and desktop width, save it in your project folder as `screenshot.jpg`.)*
 
