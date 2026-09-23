@@ -27,14 +27,13 @@ Users should be able to:
 ### Screenshot
 
 ![Mobile Solution](./images/Screenshot%20-mobile.png)
-![Desktop Solution](./images/Screenshot-dekstop.png.jpg)
+![Desktop Solution](./images/Screenshot-desktop.png)
 
-*(Add your own screenshot here before pushing — take one on both mobile and desktop width, save it in your project folder as `screenshot.jpg`.)*
 
 ### Links
 
 - Solution URL: [Frontend Mentor solution URL ](https://www.frontendmentor.io/learning-paths/building-responsive-layouts--z1qCXVqkD/challenge/65e71e1c17e502f0b6ce64b0/refactor)
-- Live Site URL: [ live site](https://jennyrm01.github.io/product-preview-card-component-)
+- Live Site URL: [Live site](https://jennyrm01.github.io/product-preview-card-component-main/)
 
 ## My process
 
@@ -74,7 +73,3 @@ What worked well was having to reason through the bug instead of just getting th
 - Frontend Mentor - [@JennyRM01](https://www.frontendmentor.io/profile/JennyRM01)
 - GitHub - [@JennyRM01](https://github.com/JennyRM01)
 
-
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
